@@ -57,7 +57,7 @@ LOCAL_C_INCLUDES:= \
 	frameworks/av/media/libstagefright \
 	$(TOP)/frameworks/native/include/media/openmax
 
-LOCAL_CFLAGS += -Wno-multichar -Werror -Wall
+LOCAL_CFLAGS += -Wno-multichar -Wall
 LOCAL_CLANG := true
 
 LOCAL_MODULE_TAGS := optional

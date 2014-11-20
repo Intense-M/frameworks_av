@@ -180,7 +180,7 @@ static inline int64_t toint(double x, int64_t maxval) {
  * I0ATerm<> to the precision of the compiler.  The series can be expanded
  * to any precision needed, but currently set around 24b precision.
  *
- * We use a bit of template math here, constexpr would probably be
+ * We use a bit of template math here, CONSTEXPR would probably be
  * more appropriate for a C++11 compiler.
  *
  * For the intermediate range 3.75 < x < 15, we use minimax polynomial fit.
